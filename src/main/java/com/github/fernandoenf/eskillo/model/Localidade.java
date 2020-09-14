@@ -4,7 +4,10 @@ public class Localidade {
     private Long id;
     private String nome;
     private String uf;
-
+    
+    public Localidade() {
+    }
+    
     public Localidade(Long id, String nome, String uf) {
         this.id = id;
         this.nome = nome;
@@ -71,4 +74,5 @@ public class Localidade {
     public void setUf(String uf) {
         this.uf = uf;
     }
+
 }
